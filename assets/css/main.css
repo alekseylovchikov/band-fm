@@ -47,6 +47,34 @@ body {
   .btn-white:hover {
     background-color: #ececec; }
 
+.btn-block {
+  display: block;
+  margin: 0 auto; }
+
+.field {
+  margin: .5rem 0 1.5rem 0; }
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  height: 2.5rem;
+  padding: .25rem 1rem;
+  background-color: #EDEFF5;
+  border: 1px solid #dde0ec;
+  border-radius: .35rem;
+  margin-top: .5rem; }
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    outline: 0; }
+
+textarea {
+  min-height: 8rem;
+  margin-top: .5rem !important; }
+
+input[type="submit"] {
+  cursor: pointer; }
+
+#form {
+  padding: 0 0 5rem 0; }
+
 .pagination::before, .pagination::after {
   content: " ";
   display: table; }
@@ -484,7 +512,6 @@ textarea {
     margin: 1.5rem 2.5% 0 2.5%; }
 
 #banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.3)), url(../img/noises-page.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -497,6 +524,15 @@ textarea {
     font-size: 3rem;
     margin: 0;
     padding: 8rem 0; }
+
+.songs-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.3)), url(../img/noises-page.jpg); }
+
+.sign-in-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.3)), url(../img/sign_in.jpg); }
+
+.sign-up-banner {
+  background-image: linear-gradient(rgba(30, 103, 120, 0.6), rgba(0, 0, 0, 0.1)), url(../img/sign_up.jpeg); }
 
 #main-header nav ul li a {
   transition: color .5s ease-in-out; }
